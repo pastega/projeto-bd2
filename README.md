@@ -23,7 +23,7 @@ Este repositório contém uma referência para outro repositório, para cloná-l
 
 Execute o docker-compose em modo "detached"
 ```sh
-    	docker-compose up -d
+    docker-compose up -d
 ```
 Aguarde alguns segundos, pois o serviço web espera que o serviço bd esteja aceitando conexões antes de subir
 
@@ -40,7 +40,11 @@ Para usar o Django, você precisará criar um superusuário. Para tal execute:
 ```
 Siga as instruções do Django
 
-### 4. Carregar o conjunto de dados de 
+### 4. Carregar o conjunto de dados de demonstração
+
+```sh
+    docker-compose exec bd mysql -u root -p < demo.sql
+```
 
 Acesse o endereço http://localhost:8000 no seu navegador
 
