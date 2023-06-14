@@ -2,7 +2,7 @@
 
 * Matheus de Bortoli Pastega
 * Allan Simões Adegas
-* Vitor Busolin
+* Vitor Santos Busolin
 
 Projeto desenvolvido como parte da disciplina de Bancos de Dados 2 - UTFPR Campus Cornélio Procópio
 
