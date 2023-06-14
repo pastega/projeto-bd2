@@ -1,0 +1,4 @@
+[submodule "projeto-ru"]
+	path = projeto-ru
+	url = http://github.com/pastega/projeto-ru.git
+	branch = mysql
