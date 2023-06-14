@@ -60,7 +60,7 @@ Acesse o endereço http://localhost:8000 no seu navegador
 O serviço bd expõe o MySQL na porta 25565 para evitar eventuais conflitos com outro MySQL rodando na máquina. 
 Assim, caso queria conectar com o MySQL WorkBench utilize:
 
-IP: localhost
-Porta: 25565
-Usuário: root
-Senha: password
+* IP: localhost
+* Porta: 25565
+* Usuário: root
+* Senha: password
