@@ -35,10 +35,12 @@ O docker deve montar as imagens e subir dois containers:
 - web - Aplicação Django
 - db - Banco de dados MySQL
 
-### 3. Carregar o conjunto de dados de demonstração
+As migrations do banco de dados devem ser aplicadas automaticamente
+
+### 3. Carregar o conjunto de dados de demonstração e as configurações do SGBD
 
 ```sh
-    docker-compose exec bash -c "mysql -u root -p < /mnt/sql/demo.sql"
+    docker-compose exec db bash -c "mysql -u root -p projeto_ru_django < <(cat /mnt/sql/*.sql)"
 ```
 
 A senha do usuário root é "password"

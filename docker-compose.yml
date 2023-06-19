@@ -5,6 +5,7 @@ services:
     image: mysql:8.0.33-debian
     volumes:
         - ./database/data:/var/lib/mysql
+        - ./database/sql:/mnt/sql
     environment:
       - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=projeto_ru_django
